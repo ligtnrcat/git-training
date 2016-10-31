@@ -3,7 +3,7 @@
     <div class="list">
       <% next if book.image_url.nil? %>
       <%= link_to (image_tag(book.image_url, style: "width: 70px;height: 100px;display: inline-block;")), book.url %>
-      <%= link_to book.title, "/book/#{book.ean}" %>
+      <%= link_to book.title, "/book/#{book.asin}" %>
     </div>
   <% end %>
 <% end %>

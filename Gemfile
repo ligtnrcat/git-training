@@ -31,11 +31,6 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 gem 'bootstrap-sass'
-gem 'devise'
-gem 'devise-bootstrap-views'
-gem 'devise-i18n'
-gem 'devise-i18n-views'
-
 gem 'pry-rails'
 gem 'pry-byebug'
 gem 'amazon-ecs'

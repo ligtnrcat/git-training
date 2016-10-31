@@ -1,0 +1,8 @@
+<h1>Boards#new</h1>
+	<%= form_tag '/books', method: :post do %>
+	  タイトル: <%= text_field_tag :title %> <br>
+	 	著者氏名: <%= text_field_tag :author %> <br>
+	 	ASIN番号: <%= text_field_tag :asin %> <br>
+	 	画像URL: <%= text_field_tag :cover_uri %> <br>
+    <%= submit_tag %>
+  <% end %>

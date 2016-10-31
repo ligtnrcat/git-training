@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
-#  devise_for :admins
-#  root to: 'books#search'
-  get root to: 'books#search'
-  get '/book/:id' => 'books#show'
+  root to: 'books#index'
+  get '/search' => 'books#search'
+  resources :books, except: %i(edit update)
 end
